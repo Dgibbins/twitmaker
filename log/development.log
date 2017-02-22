@@ -1,0 +1,1738 @@
+Started GET "/" for 127.0.0.1 at 2017-02-21 21:32:20 -0500
+Started GET "/" for 127.0.0.1 at 2017-02-21 21:32:20 -0500
+  
+  
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rails db:migrate RAILS_ENV=development
+
+):
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rails db:migrate RAILS_ENV=development
+
+):
+  
+  
+activerecord (5.0.0) lib/active_record/migration.rb:572:in `check_pending!'
+activerecord (5.0.0) lib/active_record/migration.rb:572:in `check_pending!'
+activerecord (5.0.0) lib/active_record/migration.rb:548:in `call'
+activerecord (5.0.0) lib/active_record/migration.rb:548:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+actionpack (5.0.0) lib/action_dispatch/middleware/callbacks.rb:38:in `block in call'
+activesupport (5.0.0) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0) lib/active_support/callbacks.rb:97:in `__run_callbacks__'
+activesupport (5.0.0) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0) lib/active_support/callbacks.rb:750:in `_run_call_callbacks'
+activesupport (5.0.0) lib/active_support/callbacks.rb:90:in `run_callbacks'
+activesupport (5.0.0) lib/active_support/callbacks.rb:90:in `run_callbacks'
+actionpack (5.0.0) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/callbacks.rb:36:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:49:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/yousir/.rbenv/versions/2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/home/yousir/.rbenv/versions/2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/home/yousir/.rbenv/versions/2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/home/yousir/.rbenv/versions/2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/home/yousir/.rbenv/versions/2.3.3/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+/home/yousir/.rbenv/versions/2.3.3/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (1.8ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (2.0ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.3ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.5ms)
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (54.0ms)
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (52.5ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (1.2ms)
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.8ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (57.0ms)
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (50.7ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (101.1ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (98.6ms)
+  [1m[35m (107.5ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (79.8ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateTweets (20151201225019)
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+DEPRECATION WARNING: Directly inheriting from ActiveRecord::Migration is deprecated. Please specify the Rails release the migration was written for:
+
+  class CreateTweets < ActiveRecord::Migration[4.2] (called from require at bin/rails:4)
+  [1m[35m (1.5ms)[0m  [1m[35mCREATE TABLE "tweets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "message" text, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20151201225019"]]
+  [1m[35m (197.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", :environment], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", 2017-02-22 02:32:43 UTC], ["updated_at", 2017-02-22 02:32:43 UTC]]
+  [1m[35m (101.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Started GET "/" for 127.0.0.1 at 2017-02-21 21:32:50 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (30.3ms)
+Completed 200 OK in 1417ms (Views: 1388.8ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 21:42:44 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 64ms (Views: 57.5ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-21 21:43:19 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.7ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (45.2ms)
+Completed 200 OK in 95ms (Views: 85.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-21 21:44:09 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (20.3ms)
+Completed 200 OK in 393ms (Views: 383.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-21 21:44:15 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 70ms (Views: 61.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 21:44:30 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/index" for 127.0.0.1 at 2017-02-21 21:44:36 -0500
+  
+ActionController::RoutingError (No route matches [GET] "/index"):
+  
+actionpack (5.0.0) lib/action_dispatch/middleware/debug_exceptions.rb:53:in `call'
+web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.0.0) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `block in tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.0.0) lib/active_support/tagged_logging.rb:70:in `tagged'
+railties (5.0.0) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.0) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/request_id.rb:24:in `call'
+rack (2.0.1) lib/rack/method_override.rb:22:in `call'
+rack (2.0.1) lib/rack/runtime.rb:22:in `call'
+activesupport (5.0.0) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.0.0) lib/action_dispatch/middleware/static.rb:136:in `call'
+rack (2.0.1) lib/rack/sendfile.rb:111:in `call'
+railties (5.0.0) lib/rails/engine.rb:522:in `call'
+rack (2.0.1) lib/rack/handler/webrick.rb:86:in `service'
+/home/yousir/.rbenv/versions/2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:140:in `service'
+/home/yousir/.rbenv/versions/2.3.3/lib/ruby/2.3.0/webrick/httpserver.rb:96:in `run'
+/home/yousir/.rbenv/versions/2.3.3/lib/ruby/2.3.0/webrick/server.rb:296:in `block in start_thread'
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered collection of /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_route.html.erb [4 times] (58.8ms)
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/routes/_table.html.erb (37.6ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (4.8ms)
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (230.6ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::HTML` to `Mime[:html]`. (called from const_missing at /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+DEPRECATION WARNING: Accessing mime types via constants is deprecated. Please change `Mime::WEB_CONSOLE_V2` to `Mime[:web_console_v2]`. (called from const_missing at /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0/lib/action_dispatch/http/mime_type.rb:52)
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (26.9ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendering /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/yousir/.rbenv/versions/2.3.3/lib/ruby/gems/2.3.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (53.0ms)
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 21:44:42 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.6ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 55ms (Views: 46.6ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 21:44:52 -0500
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OTD9MLm1lgafxKWkB8Sv0JsPO863XQ9c6GlO6fbf3T3jduXdMpVkyMnKMLTISYNvYbd8C7/Mej/o0/wGlLXEfw==", "tweet"=>{"message"=>"Hey there!\r\n"}, "commit"=>"Tweet"}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "Hey there!\r\n"], ["created_at", 2017-02-22 02:44:52 UTC], ["updated_at", 2017-02-22 02:44:52 UTC]]
+  [1m[35m (268.4ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tweets
+Completed 302 Found in 290ms (ActiveRecord: 269.7ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 21:44:52 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 41ms (Views: 36.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 21:57:34 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 108ms (Views: 88.5ms | ActiveRecord: 3.8ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 21:59:32 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.9ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 125ms (Views: 123.0ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 21:59:33 -0500
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+r80ReZWYTXwGZiNG6rqU0ntLh3ZG/6UecWeA/wybWwg+SyobXaT+6YXDZ3UJ8bss1Vp2NGKi/d5fyzsnlh0Lg==", "tweet"=>{"message"=>""}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", ""], ["created_at", 2017-02-22 02:59:33 UTC], ["updated_at", 2017-02-22 02:59:33 UTC]]
+  [1m[35m (524.9ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 539ms (Views: 1.7ms | ActiveRecord: 525.9ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 21:59:56 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.6ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 37ms (Views: 35.1ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 21:59:59 -0500
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"73FZ1R/1CHrrq2ta18shgcel1T2JVwmD4OsxMend+yI1N0E4lNX6tL2l/koYRg0+PR2S+IHGfODgUYPei7fiYA==", "tweet"=>{"message"=>"APPLES. i LOVE THEM!!!\r\n"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "APPLES. i LOVE THEM!!!\r\n"], ["created_at", 2017-02-22 02:59:59 UTC], ["updated_at", 2017-02-22 02:59:59 UTC]]
+  [1m[35m (484.2ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 503ms (Views: 1.8ms | ActiveRecord: 485.5ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:02:01 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 152ms (Views: 149.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:02:18 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.8ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 108ms (Views: 102.1ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:02:23 -0500
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0Ih7+J/6SY5Jbxh/kt7p5o4RnNLrS3eI6ccjpXDFtTcKzmMVFNq7QB9hjW9dU8VZdKnbF+PaAuvpfZFKEq+sdQ==", "tweet"=>{"message"=>"Heyo"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "Heyo"], ["created_at", 2017-02-22 03:02:23 UTC], ["updated_at", 2017-02-22 03:02:23 UTC]]
+  [1m[35m (169.0ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 182ms (Views: 1.7ms | ActiveRecord: 170.3ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:17:30 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 329ms (Views: 323.2ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:17:36 -0500
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ABC/SK09nFGRDFBQZFMMnc1mpWfeUh81VFnQ26PjWI/aVqelJh1un8cCxUCr3iAiN97iotbDalZU42I0wYlBzQ==", "tweet"=>{"message"=>"WOWWWWW"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "WOWWWWW"], ["created_at", 2017-02-22 03:17:36 UTC], ["updated_at", 2017-02-22 03:17:36 UTC]]
+  [1m[35m (103.0ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 107ms (Views: 0.4ms | ActiveRecord: 103.4ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:17:59 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 114ms (Views: 109.8ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:18:04 -0500
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tSGPDO4f+uWmcHBJR66u8HdeyQJIC3bNAwfat6hQt1VvZ5fhZT8IK/B+5VmII4JPjeaOx0CaA64DvWhYyjquFw==", "tweet"=>{"message"=>"Yo\r\n"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "Yo\r\n"], ["created_at", 2017-02-22 03:18:04 UTC], ["updated_at", 2017-02-22 03:18:04 UTC]]
+  [1m[35m (1014.3ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 1027ms (Views: 0.7ms | ActiveRecord: 1015.5ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:20:29 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.9ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 141ms (Views: 136.3ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:20:35 -0500
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QK7PdFd0G+hC050GYAp083ACPCUEc/ppaOT/CNjcQ9ua6NeZ3FTpJhTdCBavh1hMirp74AzijwpoXk3nurZamQ==", "tweet"=>{"message"=>"Japples"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "Japples"], ["created_at", 2017-02-22 03:20:35 UTC], ["updated_at", 2017-02-22 03:20:35 UTC]]
+  [1m[35m (846.0ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 851ms (Views: 0.9ms | ActiveRecord: 846.3ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:23:31 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.6ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 132ms (Views: 128.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:23:48 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 131ms (Views: 126.4ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:23:57 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bjeSGq3rbmeG00oB6ABT2fZnY0sQhsQtBj16elxfjwC0cYr3JsucqdDd3xEnjX9mDN8kjhgXsU4Gh8iVPjWWQg==", "tweet"=>{"message"=>"Hello!!!WOrllld!\r\n"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "Hello!!!WOrllld!\r\n"], ["created_at", 2017-02-22 03:23:57 UTC], ["updated_at", 2017-02-22 03:23:57 UTC]]
+  [1m[35m (143.9ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 147ms (Views: 0.4ms | ActiveRecord: 144.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:24:29 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.6ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 141ms (Views: 135.7ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:24:35 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZSz0Z7XhBHQ8o1sQ4MKivTPNRF3S8eF0UYz5rvNM7z+/auyKPsH2umqtzgAvT44CyXUDmNpglBdRNktBkSb2fQ==", "tweet"=>{"message"=>"Yalla"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "Yalla"], ["created_at", 2017-02-22 03:24:35 UTC], ["updated_at", 2017-02-22 03:24:35 UTC]]
+  [1m[35m (418.3ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 426ms (Views: 1.7ms | ActiveRecord: 419.7ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:25:05 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.9ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 161ms (Views: 156.8ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:25:10 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"F7zlZeTre1GVAhfi51kse0yStOuFLZECvopmUzL11RbN+v2Ib8uJn8MMgvIo1ADEtirzLo285GG+MNS8UJ/MVA==", "tweet"=>{"message"=>"Whopper!"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "Whopper!"], ["created_at", 2017-02-22 03:25:10 UTC], ["updated_at", 2017-02-22 03:25:10 UTC]]
+  [1m[35m (66.7ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 78ms (Views: 0.5ms | ActiveRecord: 68.5ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:33:13 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (1.6ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (21.5ms)
+Completed 200 OK in 45ms (Views: 42.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:33:20 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5deYGk8nTo9Te+cLVQuMScEvaUuc9kJ09C2GZx9HpXI/kYD3xAe8QQV1chuahqD2O5cujpRnNxf0lzSIfS28MA==", "tweet"=>{"message"=>"ASDLJFSGLK"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "ASDLJFSGLK"], ["created_at", 2017-02-22 03:33:20 UTC], ["updated_at", 2017-02-22 03:33:20 UTC]]
+  [1m[35m (160.2ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 166ms (Views: 1.2ms | ActiveRecord: 160.6ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:33:25 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (1.7ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (31.0ms)
+Completed 200 OK in 55ms (Views: 50.9ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:36:26 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"wAZACro91d0h5SnB2D9Kh2S3Lm6vQOltPjSPNMeYFj4aQFjnMR0nE3frvNEXsmY4ng9pq6fRnA4+jj3bpfIPfA==", "tweet"=>{"message"=>"adsfadsf"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "adsfadsf"], ["created_at", 2017-02-22 03:36:26 UTC], ["updated_at", 2017-02-22 03:36:26 UTC]]
+  [1m[35m (98.1ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 119ms (Views: 1.4ms | ActiveRecord: 100.4ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:37:24 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (1.8ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (25.5ms)
+Completed 200 OK in 233ms (Views: 231.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:37:26 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BZitFeUb70VmzswehRH3qL+o+EWRhIVQrm17nSds0H7f3rX4bjsdizDAWQ5KnNsXRRC/gJkV8DOu18lyRQbJPA==", "tweet"=>{"message"=>"adsfasfd"}}
+  [1m[35m (0.5ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "adsfasfd"], ["created_at", 2017-02-22 03:37:26 UTC], ["updated_at", 2017-02-22 03:37:26 UTC]]
+  [1m[35m (99.0ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 112ms (Views: 0.4ms | ActiveRecord: 100.0ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:37:30 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (1.6ms)
+  Rendered tweets/_tweet.html.erb (1.4ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (3.0ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (1.6ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/index.html.erb within layouts/application (37.6ms)
+Completed 200 OK in 75ms (Views: 72.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:39:32 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.7ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (22.3ms)
+Completed 200 OK in 572ms (Views: 570.4ms | ActiveRecord: 0.7ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:39:35 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QL6RKDIk0QcNiOrB3Qt7Rjjv523W4KajHXgv+d3QbGma+InFuQQjyVuGf9EShlf5wlegqN5x08Adwp0Wv7p1Kw==", "tweet"=>{"message"=>"asdfasdfaaaaaa"}}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "asdfasdfaaaaaa"], ["created_at", 2017-02-22 03:39:35 UTC], ["updated_at", 2017-02-22 03:39:35 UTC]]
+  [1m[35m (268.9ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 292ms (Views: 1.7ms | ActiveRecord: 270.7ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:39:55 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.0ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (2.8ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (1.1ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (41.3ms)
+Completed 200 OK in 185ms (Views: 179.2ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:39:58 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"k8DlloRwLgk54Jj02JuqSacd2FYfGXtiKIfo2S2OMzFJhv17D1Dcx2/uDeQXFob2XaWfkxeIDgEoPVo2T+Qqcw==", "tweet"=>{"message"=>"asdfafsdasdfa"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "asdfafsdasdfa"], ["created_at", 2017-02-22 03:39:58 UTC], ["updated_at", 2017-02-22 03:39:58 UTC]]
+  [1m[35m (367.0ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 383ms (Views: 1.7ms | ActiveRecord: 368.3ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:40:23 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.9ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (3.5ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (1.4ms)
+  Rendered tweets/_tweet.html.erb (1.1ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (58.4ms)
+Completed 200 OK in 205ms (Views: 199.4ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:40:26 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zefVMC5wCDPplgwHzn9B9YWgJ7Z/x8V5KhXlcIvgnjUXoc3dpVD6/b+YmRcB8m1Kfxhgc3dWsBoqr1ef6YqHdw==", "tweet"=>{"message"=>"asdfaaaaaaaa"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "asdfaaaaaaaa"], ["created_at", 2017-02-22 03:40:26 UTC], ["updated_at", 2017-02-22 03:40:26 UTC]]
+  [1m[35m (210.5ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 217ms (Views: 1.2ms | ActiveRecord: 211.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:41:03 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (2.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (2.4ms)
+  Rendered tweets/_tweet.html.erb (1.3ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (1.1ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (1.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (47.7ms)
+Completed 200 OK in 186ms (Views: 180.0ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:41:06 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sqVaeCJyQCSjh/toKRNNocx2nQ0/GjM+u2y88fr8uaFo40KVqVKy6vWJbnjmnmEeNs7ayDeLRl271g4emJag4w==", "tweet"=>{"message"=>"aaaaa"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "aaaaa"], ["created_at", 2017-02-22 03:41:06 UTC], ["updated_at", 2017-02-22 03:41:06 UTC]]
+  [1m[35m (711.8ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 719ms (Views: 1.6ms | ActiveRecord: 712.6ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:41:59 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (1.4ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (1.1ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (1.1ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (44.4ms)
+Completed 200 OK in 183ms (Views: 176.6ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:42:07 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WUUCYHIW0sB/DLV165WXFPWog43wm3mHE07o19xU18GDAxqN+TYgDikCIGUkGLurDxDESPgKDOQT9Fo4vj7Ogw==", "tweet"=>{"message"=>"angels\r\n"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "angels\r\n"], ["created_at", 2017-02-22 03:42:07 UTC], ["updated_at", 2017-02-22 03:42:07 UTC]]
+  [1m[35m (104.5ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 111ms (Views: 0.5ms | ActiveRecord: 104.9ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:42:42 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.1ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (5.3ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (1.2ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (1.5ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (57.9ms)
+Completed 200 OK in 203ms (Views: 195.9ms | ActiveRecord: 1.1ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:42:52 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uBpLte1W0B6q571Ggz3uSkeaNN47CQH+gRgtOHhMd6ZiXFNYZnYi0PzpKFZMsML1vSJzGzOYdJ2Bop/XGiZu5A==", "tweet"=>{"message"=>"Ankels!"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "Ankels!"], ["created_at", 2017-02-22 03:42:52 UTC], ["updated_at", 2017-02-22 03:42:52 UTC]]
+  [1m[35m (455.1ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 463ms (Views: 1.7ms | ActiveRecord: 455.4ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:42:52 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (2.6ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (42.7ms)
+Completed 200 OK in 63ms (Views: 59.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:44:09 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fpqFNvNfBrI07vG5ousTt1kyIrc6C1Ch1GzK2qmieIak3J3beH/0fGLgZKltZj8Io4plcjKaJcLU1ng1y8hhxA==", "tweet"=>{"message"=>"blahablahabalhabahlah tweet tweet\r\n\r\n\r\n\r\n\r\n\r\n\r\naa\r\ndafasdf\r\n"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "blahablahabalhabahlah tweet tweet\r\n\r\n\r\n\r\n\r\n\r\n\r\naa\r\ndafasdf\r\n"], ["created_at", 2017-02-22 03:44:09 UTC], ["updated_at", 2017-02-22 03:44:09 UTC]]
+  [1m[35m (267.8ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 282ms (Views: 1.7ms | ActiveRecord: 269.3ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:44:09 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (2.6ms)
+  Rendered tweets/_tweet.html.erb (1.5ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (1.3ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/index.html.erb within layouts/application (62.1ms)
+Completed 200 OK in 101ms (Views: 95.2ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:44:22 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HdBEtoPK+C6C6OnuVmQYf5lWGYOy3/Rvq7OPqE+eV9XHllxbCOoK4NTmfP6Z6TTAY+5eRrpOgQyrCT1HLfROlw==", "tweet"=>{"message"=>"Dffasdf"}}
+  [1m[35m (1.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "Dffasdf"], ["created_at", 2017-02-22 03:44:22 UTC], ["updated_at", 2017-02-22 03:44:22 UTC]]
+  [1m[35m (512.5ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 528ms (Views: 1.9ms | ActiveRecord: 514.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:44:23 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.6ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (1.2ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (1.6ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (1.2ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/index.html.erb within layouts/application (39.8ms)
+Completed 200 OK in 75ms (Views: 72.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:55:28 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/index.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 120ms (Views: 105.1ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:55:38 -0500
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MyzvhmY9jdEY6DpM5bYWxn7KaFwNYZ61AwUC6A3fNbnpavdr7R1/H07mr1wqOzp5hHIvmQXw69YDv7AHb7Us+w==", "tweet"=>{"message"=>"asdfasdf"}, "commit"=>"Tweet"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "asdfasdf"], ["created_at", 2017-02-22 03:55:38 UTC], ["updated_at", 2017-02-22 03:55:38 UTC]]
+  [1m[35m (109.0ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tweets
+Completed 302 Found in 116ms (ActiveRecord: 110.0ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:55:38 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (2.5ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/index.html.erb within layouts/application (41.9ms)
+Completed 200 OK in 71ms (Views: 65.8ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:55:43 -0500
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2ZRea+KE7B7USOx7J3z2/mTWwRMAVN/E2yQzddn7/EED0kaGaaQe0IJGeWvo8dpBnm6G1gjFqqfbnoGau5HlAw==", "tweet"=>{"message"=>"aaaa"}, "commit"=>"Tweet"}
+  [1m[35m (0.4ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "aaaa"], ["created_at", 2017-02-22 03:55:43 UTC], ["updated_at", 2017-02-22 03:55:43 UTC]]
+  [1m[35m (580.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tweets
+Completed 302 Found in 592ms (ActiveRecord: 582.1ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:55:44 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (1.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/index.html.erb within layouts/application (27.3ms)
+Completed 200 OK in 51ms (Views: 46.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:55:44 -0500
+Processing by TweetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LlpnVIOZ+jtJjXwF60moKpRlN5c3+BfCV1Mp/NkigaH0HH+5CLkI9R+D6RUkxISVbt1wUj9pYqFX6ZsTu0iY4w==", "tweet"=>{"message"=>""}, "commit"=>"Tweet"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", ""], ["created_at", 2017-02-22 03:55:44 UTC], ["updated_at", 2017-02-22 03:55:44 UTC]]
+  [1m[35m (67.8ms)[0m  [1m[36mcommit transaction[0m
+Redirected to http://localhost:3000/tweets
+Completed 302 Found in 79ms (ActiveRecord: 68.7ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:55:44 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (1.4ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/index.html.erb within layouts/application (38.6ms)
+Completed 200 OK in 65ms (Views: 63.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:56:10 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.6ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (1.9ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (1.3ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (1.3ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/index.html.erb within layouts/application (81.7ms)
+Completed 200 OK in 174ms (Views: 168.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:57:39 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (1.8ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (1.2ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (68.9ms)
+Completed 200 OK in 152ms (Views: 147.2ms | ActiveRecord: 1.3ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:57:42 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o9eSU3Zbsp0lxj8FykdQ8PNZxum7y2GWvjzoWKnt4LR5kYq+/XtAU3PIqhUFynxPCeGBLLNaFPW+hlq3y4f59g==", "tweet"=>{"message"=>"asdfaaaa"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "asdfaaaa"], ["created_at", 2017-02-22 03:57:42 UTC], ["updated_at", 2017-02-22 03:57:42 UTC]]
+  [1m[35m (98.4ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 111ms (Views: 2.0ms | ActiveRecord: 99.6ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:57:43 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (1.6ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/index.html.erb within layouts/application (32.1ms)
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:57:50 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"u/wBZwOiwr81R0+n2Co6KKu93eBZwtxzGLsGAR8Bd1RhuhmKiIIwcWNJ2rcXpxaXUQWaJVFTqRAYAbTufWtuFg==", "tweet"=>{"message"=>"aaaa"}}
+  [1m[35m (1.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "aaaa"], ["created_at", 2017-02-22 03:57:50 UTC], ["updated_at", 2017-02-22 03:57:50 UTC]]
+  [1m[35m (109.8ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 125ms (Views: 1.4ms | ActiveRecord: 112.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:57:50 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.7ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (2.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/index.html.erb within layouts/application (49.7ms)
+Completed 200 OK in 74ms (Views: 71.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:58:07 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (2.0ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (1.2ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (1.1ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/index.html.erb within layouts/application (57.8ms)
+Completed 200 OK in 83ms (Views: 78.2ms | ActiveRecord: 1.2ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:58:10 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"NZ3ohir9YjyDOX9pga3I4aen8i8GpEILbexzSKc8fUTv2/Brod2Q8tU36nlOIOReXR+16g41N2htVsGnxVZkBg==", "tweet"=>{"message"=>"aa"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "aa"], ["created_at", 2017-02-22 03:58:10 UTC], ["updated_at", 2017-02-22 03:58:10 UTC]]
+  [1m[35m (377.5ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 393ms (Views: 1.8ms | ActiveRecord: 378.7ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:58:11 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (1.2ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/index.html.erb within layouts/application (24.3ms)
+Completed 200 OK in 36ms (Views: 34.3ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 22:58:26 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iEzziPVAUvxuH9pzrJTNOAGjS6NCNrzBG0ercyX7cjVSCutlfmCgMjgRT2NjGeGH+xsMZkqnyaIb/RmcR5Frdw==", "tweet"=>{"message"=>"aaaa"}}
+  [1m[35m (1.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "aaaa"], ["created_at", 2017-02-22 03:58:26 UTC], ["updated_at", 2017-02-22 03:58:26 UTC]]
+  [1m[35m (275.1ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 291ms (Views: 1.8ms | ActiveRecord: 277.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 22:58:26 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.2ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (1.3ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (1.5ms)
+  Rendered tweets/_tweet.html.erb (1.1ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (1.1ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/index.html.erb within layouts/application (59.1ms)
+Completed 200 OK in 189ms (Views: 185.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 23:00:58 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (3.1ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (1.4ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (1.1ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (78.5ms)
+Completed 200 OK in 174ms (Views: 168.3ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 23:01:00 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Ido5yTLPQ7HBrQcyAITa2Wb7fKmzKE4oMON0CKPysZz7nCEkue+xf5ejkiLPCfZmnEM7bLu5O0swWcbnwZio3g==", "tweet"=>{"message"=>"aaaaa"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "aaaaa"], ["created_at", 2017-02-22 04:01:00 UTC], ["updated_at", 2017-02-22 04:01:00 UTC]]
+  [1m[35m (758.5ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 768ms (Views: 1.7ms | ActiveRecord: 759.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 23:01:20 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (3.0ms)
+  Rendered tweets/_tweet.html.erb (2.1ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (1.8ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (1.8ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/index.html.erb within layouts/application (78.5ms)
+Completed 200 OK in 175ms (Views: 170.2ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 23:01:24 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dJzA58qoznfRns5onnjQmFqNt+9Cc9kzdfLalk6IuqCu2tgKQYg8uYeQW3hR9fwnoDXwKkrirFB1SGh5LOKj4g==", "tweet"=>{"message"=>"zz"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "zz"], ["created_at", 2017-02-22 04:01:24 UTC], ["updated_at", 2017-02-22 04:01:24 UTC]]
+  [1m[35m (1391.0ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 1405ms (Views: 0.7ms | ActiveRecord: 1392.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 23:04:27 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (2.0ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (1.1ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/index.html.erb within layouts/application (46.1ms)
+Completed 200 OK in 124ms (Views: 118.3ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 23:04:30 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LWM+L44IgtSDnrDwJ9JEqYQtUYQVjW6XGbwPDwtbthX3JSbCBShwGtWQJeDoX2gWfpUWQR0cG/QZBr3gaTGvVw==", "tweet"=>{"message"=>"afsdadsf"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "afsdadsf"], ["created_at", 2017-02-22 04:04:30 UTC], ["updated_at", 2017-02-22 04:04:30 UTC]]
+  [1m[35m (80.2ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 86ms (Views: 1.1ms | ActiveRecord: 80.6ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 23:04:37 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (1.4ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/index.html.erb within layouts/application (34.1ms)
+Completed 200 OK in 49ms (Views: 47.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 23:12:27 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.8ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (1.1ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (49.3ms)
+Completed 200 OK in 160ms (Views: 158.4ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 23:12:31 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"fhVfcbfdxZ7pTNe+LIRDT29IPAxtjU/a/JzvPvYgXrekU0ecPP03UL9CQq7jCW/wlfB7yWUcOrn8Jl3RlEpH9Q==", "tweet"=>{"message"=>"adsfasdf"}}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "adsfasdf"], ["created_at", 2017-02-22 04:12:31 UTC], ["updated_at", 2017-02-22 04:12:31 UTC]]
+  [1m[35m (1027.6ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 1034ms (Views: 1.3ms | ActiveRecord: 1028.2ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 23:14:05 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (1.5ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/index.html.erb within layouts/application (58.3ms)
+Completed 200 OK in 181ms (Views: 178.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 23:14:28 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.5ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (1.8ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (1.2ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/index.html.erb within layouts/application (67.9ms)
+Completed 200 OK in 557ms (Views: 551.7ms | ActiveRecord: 1.5ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 23:14:33 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"G/4npnlgSDUSOU1vM+awCmTsLjhHrR9U6+TrjpkcMjrBuD9L8kC6+0Q32H/8a5y1nlRp/U88ajfrXllh+3YreA==", "tweet"=>{"message"=>"aaaa  vvvsafdad"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "aaaa  vvvsafdad"], ["created_at", 2017-02-22 04:14:33 UTC], ["updated_at", 2017-02-22 04:14:33 UTC]]
+  [1m[35m (549.9ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 560ms (Views: 2.0ms | ActiveRecord: 550.7ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 23:15:09 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (1.4ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (1.7ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (1.2ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.5ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.7ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/index.html.erb within layouts/application (81.0ms)
+Completed 200 OK in 161ms (Views: 155.1ms | ActiveRecord: 1.4ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 23:15:13 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"g/kqV7UUW1REN+IeaUobbKqgXgluqLCnSFjSl08ZI/RZvzK6PjSpmhI5dw6mxzfTUBgZzGY5xcRI4mB4LXM6tg==", "tweet"=>{"message"=>"aaadfasdf"}}
+  [1m[35m (0.3ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "aaadfasdf"], ["created_at", 2017-02-22 04:15:13 UTC], ["updated_at", 2017-02-22 04:15:13 UTC]]
+  [1m[35m (505.0ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 518ms (Views: 1.7ms | ActiveRecord: 506.4ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 23:15:14 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.3ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (1.1ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (1.5ms)
+  Rendered tweets/index.html.erb within layouts/application (43.3ms)
+Completed 200 OK in 67ms (Views: 65.6ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/tweets" for 127.0.0.1 at 2017-02-21 23:15:18 -0500
+Processing by TweetsController#create as JSON
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cJwtsi38gyk25Ao2q7l3F2VTXV7RuwkXO6AYh2B6ZjCq2jVfptxx52DqnyZkNFuon+sam9kqfHQ7GqpoAhB/cg==", "tweet"=>{"message"=>"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"}}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.2ms)[0m  [1m[32mINSERT INTO "tweets" ("message", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["message", "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"], ["created_at", 2017-02-22 04:15:18 UTC], ["updated_at", 2017-02-22 04:15:18 UTC]]
+  [1m[35m (236.1ms)[0m  [1m[36mcommit transaction[0m
+Completed 200 OK in 249ms (Views: 1.3ms | ActiveRecord: 237.6ms)
+
+
+Started GET "/tweets" for 127.0.0.1 at 2017-02-21 23:15:18 -0500
+Processing by TweetsController#index as HTML
+  Rendering tweets/index.html.erb within layouts/application
+  [1m[36mTweet Load (0.8ms)[0m  [1m[34mSELECT "tweets".* FROM "tweets" ORDER BY "tweets"."created_at" DESC[0m
+  Rendered tweets/_tweet.html.erb (1.4ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.4ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (1.6ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (1.0ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (1.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.9ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.3ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.6ms)
+  Rendered tweets/_tweet.html.erb (0.8ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.2ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/_tweet.html.erb (0.1ms)
+  Rendered tweets/index.html.erb within layouts/application (55.9ms)
+Completed 200 OK in 79ms (Views: 75.5ms | ActiveRecord: 0.8ms)
+
+
